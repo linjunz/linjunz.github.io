@@ -81,7 +81,7 @@ def home():
 <p class="intro">{research_summary()}</p>
 <p class="intro">I received my Ph.D. in Statistics from the University of Pennsylvania in 2019, advised by {link('http://www-stat.wharton.upenn.edu/~tcai/','T. Tony Cai')}.</p>
 <div class="contact-links">{link('mailto:'+EMAIL,'Email ↗')}{link(SCHOLAR,'Google Scholar ↗')}{link(CV,'Curriculum vitae ↗')}</div></div>
-<figure class="portrait"><img src="assets/portrait-natural.jpg" width="600" height="900" alt="Portrait of Linjun Zhang" fetchpriority="high"><figcaption><span>Department of Statistics</span><span>Rutgers University</span></figcaption></figure>
+<figure class="portrait"><img src="assets/portrait-natural.jpg" width="600" height="900" alt="Portrait of Linjun Zhang" fetchpriority="high"></figure>
 </section>{opportunity()}
 <section class="split-section" aria-labelledby="interests"><div><span class="section-number">01 / RESEARCH</span><h2 id="interests">Research interests</h2></div><div class="topics">
 <div class="topic">Efficient AI evaluation<span>Statistical efficiency · Evaluation reliability</span></div><div class="topic">AI safety<span>Data privacy · Statistical watermarking · Algorithmic bias</span></div><div class="topic">AI agents<span>Statistical principles of harness engineering</span></div><div class="topic">Representation learning<span>Self-supervision · Learning theory</span></div>
