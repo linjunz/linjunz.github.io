@@ -28,7 +28,7 @@ def shell(name, body, description):
   <meta name="description" content="{escape(description, quote=True)}">
   <link rel="canonical" href="https://linjunz.github.io/{'' if name == 'Home' else filename}">
   <link rel="icon" href="icon.jpg" type="image/jpeg">
-  <link rel="stylesheet" href="assets/site.css?v=service-1">
+  <link rel="stylesheet" href="assets/site.css?v=service-2">
   <script src="assets/site.js" defer></script>
 </head>
 <body data-page="{name}">
@@ -69,12 +69,13 @@ def academic_service():
     groups = json.loads((ROOT / 'data/service.json').read_text())
     content = '<div class="service-groups">'
     for group in groups:
-        content += f'<section class="service-group"><h3>{escape(group["role"])}</h3><ul>'
+        list_class = ' class="service-inline"' if group.get('layout') == 'inline' else ''
+        content += f'<section class="service-group"><h3>{escape(group["role"])}</h3><ul{list_class}>'
         for item in group['entries']:
             name = escape(item['name'])
             if item.get('url'):
                 name = link(item['url'], name)
-            details = f'<span class="service-detail">{escape(item["details"])}</span>' if item.get('details') else ''
+            details = ''.join(f'<span class="service-detail">{escape(detail)}</span>' for detail in item.get('details', []))
             content += f'<li>{name}{details}</li>'
         content += '</ul></section>'
     return content + '</div>'
