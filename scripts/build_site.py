@@ -39,7 +39,7 @@ def shell(name, body, description):
   <nav class="nav" id="primary-navigation" aria-label="Main navigation">{nav}{link(CV,'CV ↗',' class="cv-link"')}</nav>
 </div></header>
 <main id="main" class="wrap">{body}</main>
-<footer class="site-footer"><div class="wrap footer-inner"><span>© {PROFILE['updated'][:4]} Linjun Zhang · Rutgers University</span><span>{link('mailto:'+EMAIL,EMAIL)} · Updated {PROFILE['updated_label']}</span></div></footer>
+<footer class="site-footer"><div class="wrap footer-inner"><span>© {PROFILE['updated'][:4]} Linjun Zhang</span><span>{link('mailto:'+EMAIL,EMAIL)} · Updated {PROFILE['updated_label']}</span></div></footer>
 </body>
 </html>
 '''
