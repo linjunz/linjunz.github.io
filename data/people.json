@@ -1,0 +1,194 @@
+[
+  {
+    "name": "Zhe Zhang",
+    "section": "PhD students",
+    "details": "(Graduated in 2023)",
+    "lines": [
+      "Placement: Microsoft"
+    ],
+    "links": []
+  },
+  {
+    "name": "Xiaotian Hou",
+    "section": "PhD students",
+    "details": "(Graduated in 2025)",
+    "lines": [
+      "Placement: Postdoc at UPenn"
+    ],
+    "links": []
+  },
+  {
+    "name": "Ryumei Nakada",
+    "section": "PhD students",
+    "details": "(Graduated in 2025)",
+    "lines": [
+      "Placement: Postdoc at Harvard"
+    ],
+    "links": [
+      {
+        "url": "https://sites.google.com/view/ryumei/home",
+        "label": "Ryumei Nakada"
+      }
+    ]
+  },
+  {
+    "name": "Xiangrui Kong",
+    "section": "PhD students",
+    "details": "",
+    "lines": [],
+    "links": []
+  },
+  {
+    "name": "Tianze Wang",
+    "section": "PhD students",
+    "details": "",
+    "lines": [],
+    "links": []
+  },
+  {
+    "name": "Yulin Li",
+    "section": "PhD students",
+    "details": "",
+    "lines": [],
+    "links": []
+  },
+  {
+    "name": "Zihan Dong",
+    "section": "PhD students",
+    "details": "",
+    "lines": [],
+    "links": []
+  },
+  {
+    "name": "Yinpeng Cai",
+    "section": "Undergraduate/Master Research Interns",
+    "details": "(Peking University) (06/2024-10/2024)",
+    "lines": [
+      "Publication: A Statistical Hypothesis Testing Framework for Data Misappropriation Detection in Large Language Models",
+      "Placement: Harvard Statistics PhD"
+    ],
+    "links": [
+      {
+        "url": "https://arxiv.org/abs/2501.02441",
+        "label": "A Statistical Hypothesis Testing Framework for Data Misappropriation Detection in Large Language Models"
+      }
+    ]
+  },
+  {
+    "name": "Zhekun Shi",
+    "section": "Undergraduate/Master Research Interns",
+    "details": "(Peking University) (06/2024-10/2024)",
+    "lines": [
+      "Placement: Princeton ORFE PhD"
+    ],
+    "links": []
+  },
+  {
+    "name": "Lujing Zhang",
+    "section": "Undergraduate/Master Research Interns",
+    "details": "(Peking University) (06/2023-10/2023)",
+    "lines": [
+      "Publication: Fair Risk Control: A Generalized Framework for Calibrating Multi-group Fairness Risks (ICML 2024)",
+      "Placement: CMU Statistics PhD"
+    ],
+    "links": [
+      {
+        "url": "https://arxiv.org/pdf/2405.02225",
+        "label": "Fair Risk Control: A Generalized Framework for Calibrating Multi-group Fairness Risks (ICML 2024)"
+      }
+    ]
+  },
+  {
+    "name": "Qichuan Yin",
+    "section": "Undergraduate/Master Research Interns",
+    "details": "(Peking University) (06/2023-10/2023)",
+    "lines": [
+      "Publication: Distribution-Free Fair Federated Learning with Small Samples",
+      "Placement: U. Chicago Statistics PhD"
+    ],
+    "links": [
+      {
+        "url": "https://arxiv.org/abs/2402.16158",
+        "label": "Distribution-Free Fair Federated Learning with Small Samples"
+      }
+    ]
+  },
+  {
+    "name": "Puheng Li",
+    "section": "Undergraduate/Master Research Interns",
+    "details": "(Peking University) (06/2022-10/2022)",
+    "lines": [
+      "Publication: FaiREE: Fair Classification with Finite-Sample and Distribution-Free Guarantee (ICLR 2023)",
+      "Placement: Stanford Statistics PhD"
+    ],
+    "links": [
+      {
+        "url": "https://arxiv.org/abs/2211.15072",
+        "label": "FaiREE: Fair Classification with Finite-Sample and Distribution-Free Guarantee (ICLR 2023)"
+      }
+    ]
+  },
+  {
+    "name": "Haotian Ye",
+    "section": "Undergraduate/Master Research Interns",
+    "details": "(Peking University) (06/2022-09/2022)",
+    "lines": [
+      "Publication: Freeze then Train: Towards Provable Representation Learning under Spurious Correlations and Feature Noise (AISTATS 2023)",
+      "Placement: Stanford CS PhD"
+    ],
+    "links": [
+      {
+        "url": "https://arxiv.org/abs/2210.11075",
+        "label": "Freeze then Train: Towards Provable Representation Learning under Spurious Correlations and Feature Noise (AISTATS 2023)"
+      }
+    ]
+  },
+  {
+    "name": "Yiping Wang",
+    "section": "Undergraduate/Master Research Interns",
+    "details": "(Zhejiang University) (02/2022-07/2022)",
+    "lines": [
+      "Publication: C-Mixup: Improving Generalization in Regression (NeurIPS 2022)",
+      "Placement: U. Washington CS PhD"
+    ],
+    "links": [
+      {
+        "url": "https://arxiv.org/abs/2210.05775",
+        "label": "C-Mixup: Improving Generalization in Regression (NeurIPS 2022)"
+      }
+    ]
+  },
+  {
+    "name": "Wenlong Ji",
+    "section": "Undergraduate/Master Research Interns",
+    "details": "(Peking University) (06/2021-10/2021)",
+    "lines": [
+      "Publication: The Power of Contrast for Feature Learning: A Theoretical Analysis (JMLR 2023)",
+      "Placement: Stanford Statistics PhD"
+    ],
+    "links": [
+      {
+        "url": "https://arxiv.org/abs/2110.02473",
+        "label": "The Power of Contrast for Feature Learning: A Theoretical Analysis (JMLR 2023)"
+      }
+    ]
+  },
+  {
+    "name": "Tianze Wang",
+    "section": "Undergraduate/Master Research Interns",
+    "details": "(Rutgers University) (10/2021-05/2022)",
+    "lines": [
+      "Placement: Rutgers Statistics PhD"
+    ],
+    "links": []
+  },
+  {
+    "name": "Mengyue Liu",
+    "section": "Undergraduate/Master Research Interns",
+    "details": "(Rutgers University) (07/2020-08/2020)",
+    "lines": [
+      "Placement: Senior Data Analyst at Capital One"
+    ],
+    "links": []
+  }
+]

@@ -1,0 +1,983 @@
+[
+  {
+    "authors": "** Ran Xu, ** Tianci Liu, Zihan Dong, Tony Yu, Ilgee Hong, Carl Yang, Linjun Zhang, Tao Zhao, Haoyu Wang",
+    "year": 2026,
+    "venue": "ICML 2026",
+    "category": "Statistical Foundations of Large Language Models (LLMs)",
+    "kind": "publication",
+    "extra_links": [],
+    "new": true,
+    "title": "Alternating Reinforcement Learning for Rubric-Based Reward Modeling in Non-Verifiable LLM Post-Training",
+    "url": "https://arxiv.org/abs/2602.01511",
+    "sources": [
+      "https://scholar.google.com/citations?user=TUAzs3sAAAAJ&hl=en&sortby=pubdate&pagesize=100",
+      "https://arxiv.org/abs/2602.01511",
+      "https://wanghaoyu0408.github.io/publications/"
+    ]
+  },
+  {
+    "title": "An Overview of Large Language Models for Statisticians",
+    "authors": "Wenlong Ji, Weizhe Yuan, Emily Getzen, Kyunghyun Cho, Michael I. Jordan, Song Mei, Jason E Weston, Weijie J. Su, Jing Xu, Linjun Zhang",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2502.17814",
+    "venue": "The American Statistician",
+    "category": "Statistical Foundations of Large Language Models (LLMs)",
+    "kind": "publication",
+    "extra_links": [],
+    "sources": [
+      "https://scholar.google.com/citations?user=TUAzs3sAAAAJ&hl=en&sortby=pubdate&pagesize=100",
+      "https://arxiv.org/abs/2502.17814"
+    ]
+  },
+  {
+    "title": "Contrastive Learning on Multimodal Analysis of Electronic Health Records",
+    "authors": "* Tianxi Cai, Feiqing Huang, Ryumei Nakada, Linjun Zhang, Doudou Zhou",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2403.14926",
+    "venue": "Journal of the American Statistical Association",
+    "category": "Deep Learning (with focus on representation learning)",
+    "kind": "publication",
+    "extra_links": [],
+    "sources": [
+      "https://scholar.google.com/citations?user=TUAzs3sAAAAJ&hl=en&sortby=pubdate&pagesize=100",
+      "https://arxiv.org/abs/2403.14926"
+    ]
+  },
+  {
+    "authors": "Qichuan Yin, Zexian Wang, Junzhou Huang, Huaxiu Yao, Linjun Zhang",
+    "year": 2026,
+    "venue": "Statistical Learning and Data Science",
+    "category": "Algorithmic Fairness",
+    "kind": "publication",
+    "extra_links": [],
+    "new": true,
+    "title": "Distribution-Free Fair Federated Learning with Small Samples",
+    "url": "https://arxiv.org/abs/2402.16158",
+    "sources": [
+      "https://scholar.google.com/citations?user=TUAzs3sAAAAJ&hl=en&sortby=pubdate&pagesize=100",
+      "https://arxiv.org/abs/2402.16158"
+    ]
+  },
+  {
+    "authors": "Peng Xia, Jinglu Wang, Yibo Peng, Kaide Zeng, Zihan Dong, Xian Wu, Xiangru Tang, Hongtu Zhu, Yun Li, Linjun Zhang, Shujie Liu, Yan Lu, Huaxiu Yao",
+    "year": 2026,
+    "venue": "ICLR 2026",
+    "category": "Statistical Foundations of Large Language Models (LLMs)",
+    "kind": "publication",
+    "extra_links": [],
+    "new": true,
+    "title": "MMedAgent-RL: Optimizing Multi-Agent Collaboration for Multimodal Medical Reasoning",
+    "url": "https://arxiv.org/abs/2506.00555",
+    "sources": [
+      "https://scholar.google.com/citations?user=TUAzs3sAAAAJ&hl=en&sortby=pubdate&pagesize=100",
+      "https://arxiv.org/abs/2506.00555"
+    ]
+  },
+  {
+    "authors": "Shirley Wu, Parth Sarthi, Shiyu Zhao, Aaron Lee, Herumb Shandilya, Adrian Mladenic Grobelnik, Nurendra Choudhary, Eddie Huang, Karthik Subbian, Linjun Zhang, Diyi Yang, James Zou, Jure Leskovec",
+    "year": 2026,
+    "venue": "ICLR 2026",
+    "category": "Statistical Foundations of Large Language Models (LLMs)",
+    "kind": "publication",
+    "extra_links": [],
+    "new": true,
+    "title": "Optimas: Optimizing Compound AI Systems with Globally Aligned Local Rewards",
+    "url": "https://arxiv.org/abs/2507.03041",
+    "sources": [
+      "https://scholar.google.com/citations?user=TUAzs3sAAAAJ&hl=en&sortby=pubdate&pagesize=100",
+      "https://arxiv.org/abs/2507.03041"
+    ]
+  },
+  {
+    "title": "PEANuT: Parameter-Efficient Adaptation with Weight-aware Neural Tweakers",
+    "authors": "Yibo Zhong, Haoxiang Jiang, Lincan Li, Ryumei Nakada, Tianci Liu, Linjun Zhang, Huaxiu Yao, Haoyu Wang",
+    "year": 2026,
+    "venue": "KDD 2026",
+    "category": "Deep Learning (with focus on representation learning)",
+    "kind": "publication",
+    "url": "https://doi.org/10.1145/3770854.3780230",
+    "extra_links": [],
+    "new": true,
+    "sources": [
+      "https://scholar.google.com/citations?user=TUAzs3sAAAAJ&hl=en&sortby=pubdate&pagesize=100",
+      "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TUAzs3sAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=TUAzs3sAAAAJ:JQOojiI6XY0C"
+    ]
+  },
+  {
+    "authors": "Yichen Xu, Ryumei Nakada, Linjun Zhang, Lexin Li",
+    "year": 2026,
+    "venue": "ICLR 2026",
+    "category": "Deep Learning (with focus on representation learning)",
+    "kind": "publication",
+    "extra_links": [],
+    "new": true,
+    "title": "Residual Feature Integration is Sufficient to Prevent Negative Transfer",
+    "url": "https://arxiv.org/abs/2505.11771",
+    "sources": [
+      "https://scholar.google.com/citations?user=TUAzs3sAAAAJ&hl=en&sortby=pubdate&pagesize=100",
+      "https://arxiv.org/abs/2505.11771"
+    ]
+  },
+  {
+    "authors": "Tianze Wang, Zhaoyu Chen, Jian Du, Yingtai Xiao, Linjun Zhang, Qiang Yan",
+    "year": 2026,
+    "venue": "ICLR 2026",
+    "category": "Private Data Analysis",
+    "kind": "publication",
+    "extra_links": [],
+    "new": true,
+    "title": "Secret-Protected Evolution for Differentially Private Synthetic Text Generation",
+    "url": "https://arxiv.org/abs/2510.10990",
+    "sources": [
+      "https://scholar.google.com/citations?user=TUAzs3sAAAAJ&hl=en&sortby=pubdate&pagesize=100",
+      "https://arxiv.org/abs/2510.10990"
+    ]
+  },
+  {
+    "authors": "Xintao Xia, Zhiqiu Xia, Linjun Zhang, Zhanrui Cai",
+    "year": 2026,
+    "venue": "Preprint",
+    "category": "Statistical Foundations of Large Language Models (LLMs)",
+    "kind": "preprint",
+    "extra_links": [],
+    "new": true,
+    "title": "A Statistical Framework for Alignment with Biased AI Feedback",
+    "url": "https://arxiv.org/abs/2602.08259",
+    "sources": [
+      "https://scholar.google.com/citations?user=TUAzs3sAAAAJ&hl=en&sortby=pubdate&pagesize=100",
+      "https://arxiv.org/abs/2602.08259"
+    ]
+  },
+  {
+    "authors": "Zihan Dong, Zhixian Zhang, Yang Zhou, Can Jin, Ruijia Wu, Linjun Zhang",
+    "year": 2026,
+    "venue": "Preprint",
+    "category": "Statistical Foundations of Large Language Models (LLMs)",
+    "kind": "preprint",
+    "extra_links": [],
+    "new": true,
+    "title": "Evaluating LLMs When They Do Not Know the Answer: Statistical Evaluation of Mathematical Reasoning via Comparative Signals",
+    "url": "https://arxiv.org/abs/2602.03061",
+    "sources": [
+      "https://scholar.google.com/citations?user=TUAzs3sAAAAJ&hl=en&sortby=pubdate&pagesize=100",
+      "https://arxiv.org/abs/2602.03061"
+    ]
+  },
+  {
+    "authors": "Zihan Dong, Xiaotian Hou, Ruijia Wu, Linjun Zhang",
+    "year": 2026,
+    "venue": "Preprint",
+    "category": "Statistical Foundations of Large Language Models (LLMs)",
+    "kind": "preprint",
+    "extra_links": [],
+    "new": true,
+    "title": "Labels or Preferences? Budget-Constrained Learning with Human Judgments over AI-Generated Outputs",
+    "url": "https://arxiv.org/abs/2601.13458",
+    "sources": [
+      "https://scholar.google.com/citations?user=TUAzs3sAAAAJ&hl=en&sortby=pubdate&pagesize=100",
+      "https://arxiv.org/abs/2601.13458"
+    ]
+  },
+  {
+    "authors": "Sai Li, Linjun Zhang",
+    "year": 2026,
+    "venue": "Preprint",
+    "category": "High-dimensional Statistics (with Distribution Shifts)",
+    "kind": "preprint",
+    "extra_links": [],
+    "new": true,
+    "title": "Personalizing black-box models for nonparametric regression with minimax optimality",
+    "url": "https://arxiv.org/abs/2601.01432",
+    "sources": [
+      "https://scholar.google.com/citations?user=TUAzs3sAAAAJ&hl=en&sortby=pubdate&pagesize=100",
+      "https://arxiv.org/abs/2601.01432"
+    ]
+  },
+  {
+    "authors": "Zhixian Zhang, Xiaotian Hou, Linjun Zhang",
+    "year": 2026,
+    "venue": "Preprint",
+    "category": "High-dimensional Statistics (with Distribution Shifts)",
+    "kind": "preprint",
+    "extra_links": [],
+    "new": true,
+    "title": "Unified Inference Framework for Single and Multi-Player Performative Prediction: Method and Asymptotic Optimality",
+    "url": "https://arxiv.org/abs/2602.03049",
+    "sources": [
+      "https://scholar.google.com/citations?user=TUAzs3sAAAAJ&hl=en&sortby=pubdate&pagesize=100",
+      "https://arxiv.org/abs/2602.03049"
+    ]
+  },
+  {
+    "title": "AceSearcher: Bootstrapping Reasoning and Search for LLMs via Reinforced Self-Play",
+    "authors": "Ran Xu, Yuchen Zhuang, Zihan Dong, Ruiyu Wang, Yue Yu, Joyce C. Ho, Linjun Zhang, Haoyu Wang, Wenqi Shi, Carl Yang",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2509.24193",
+    "venue": "NeurIPS 2025",
+    "category": "Statistical Foundations of Large Language Models (LLMs)",
+    "kind": "publication",
+    "extra_links": [],
+    "sources": [
+      "https://scholar.google.com/citations?user=TUAzs3sAAAAJ&hl=en&sortby=pubdate&pagesize=100",
+      "https://neurips.cc/virtual/2025/loc/san-diego/poster/116458"
+    ]
+  },
+  {
+    "title": "Differentially Private Learning Beyond the Classical Dimensionality Regime",
+    "authors": "* Cynthia Dwork, Pranay Tankala, Linjun Zhang",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2411.13682",
+    "venue": "Theory of Cryptography Conference (TCC) 2025",
+    "category": "Private Data Analysis",
+    "kind": "publication",
+    "extra_links": [],
+    "sources": [
+      "https://scholar.google.com/citations?user=TUAzs3sAAAAJ&hl=en&sortby=pubdate&pagesize=100",
+      "https://arxiv.org/abs/2411.13682"
+    ]
+  },
+  {
+    "title": "Differentially Private Sliced Inverse Regression: Minimax Optimality and Algorithm",
+    "authors": "* Xintao Xia, Linjun Zhang, and Zhanrui Cai",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2401.08150",
+    "venue": "Journal of the American Statistical Association",
+    "category": "Private Data Analysis",
+    "kind": "publication",
+    "extra_links": []
+  },
+  {
+    "title": "FactTest: Factuality Testing in Large Language Models with Finite-Sample and Distribution-Free Guarantees",
+    "authors": "Fan Nie, Xiaotian Hou, Shuhang Lin, James Zou, Huaxiu Yao, and Linjun Zhang",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2411.02603",
+    "venue": "ICML 2025",
+    "category": "Statistical Foundations of Large Language Models (LLMs)",
+    "kind": "publication",
+    "extra_links": []
+  },
+  {
+    "authors": "Tianci Liu, Ruirui Li, Zihan Dong, Hui Liu, Xianfeng Tang, Qingyu Yin, Linjun Zhang, Haoyu Wang, Jing Gao",
+    "year": 2025,
+    "venue": "ICML 2025",
+    "category": "Statistical Foundations of Large Language Models (LLMs)",
+    "kind": "publication",
+    "extra_links": [],
+    "new": true,
+    "title": "Mitigating Heterogeneous Token Overfitting in LLM Knowledge Editing",
+    "url": "https://arxiv.org/abs/2502.00602",
+    "sources": [
+      "https://scholar.google.com/citations?user=TUAzs3sAAAAJ&hl=en&sortby=pubdate&pagesize=100",
+      "https://arxiv.org/abs/2502.00602"
+    ]
+  },
+  {
+    "title": "MMed-RAG: Versatile Multimodal RAG System for Medical Vision Language Models",
+    "authors": "Peng Xia, Kangyu Zhu, Haoran Li, Tianze Wang, Weijia Shi, Sheng Wang, Linjun Zhang, James Zou, Huaxiu Yao",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2410.13085",
+    "venue": "ICLR 2025",
+    "category": "Statistical Foundations of Large Language Models (LLMs)",
+    "kind": "publication",
+    "extra_links": [],
+    "sources": [
+      "https://scholar.google.com/citations?user=TUAzs3sAAAAJ&hl=en&sortby=pubdate&pagesize=100",
+      "https://arxiv.org/abs/2410.13085"
+    ]
+  },
+  {
+    "title": "MPO: An Efficient Post-Processing Framework for Mixing Diverse Preference Alignment",
+    "authors": "Tianze Wang, Dongnan Gui, Yifan Hu, Shuhang Lin, and Linjun Zhang",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2502.18699",
+    "venue": "ICML 2025",
+    "category": "Statistical Foundations of Large Language Models (LLMs)",
+    "kind": "publication",
+    "extra_links": []
+  },
+  {
+    "title": "Multi-Dimensional Domain Generalization with Low-Rank Structures",
+    "authors": "Sai Li and Linjun Zhang",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2309.09555",
+    "venue": "Journal of the American Statistical Association",
+    "category": "High-dimensional Statistics (with Distribution Shifts)",
+    "kind": "publication",
+    "extra_links": []
+  },
+  {
+    "authors": "Tianci Liu, Haoxiang Jiang, Tianze Wang, Ran Xu, Yue Yu, Linjun Zhang, Tuo Zhao, Haoyu Wang",
+    "year": 2025,
+    "venue": "Findings of ACL 2025",
+    "category": "Statistical Foundations of Large Language Models (LLMs)",
+    "kind": "publication",
+    "extra_links": [],
+    "new": true,
+    "title": "RoseRAG: Robust Retrieval-augmented Generation with Small-scale LLMs via Margin-aware Preference Optimization",
+    "url": "https://arxiv.org/abs/2502.10993",
+    "sources": [
+      "https://scholar.google.com/citations?user=TUAzs3sAAAAJ&hl=en&sortby=pubdate&pagesize=100",
+      "https://arxiv.org/abs/2502.10993",
+      "https://wanghaoyu0408.github.io/publications/"
+    ]
+  },
+  {
+    "title": "A Statistical Hypothesis Testing Framework for Data Misappropriation Detection in Large Language Models",
+    "authors": "Yinpeng Cai, Lexin Li, and Linjun Zhang",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2501.02441",
+    "venue": "Preprint",
+    "category": "Technical Reports",
+    "kind": "preprint",
+    "extra_links": []
+  },
+  {
+    "title": "A Theoretical Framework for Prompt Engineering: Approximating Smooth Functions with Transformer Prompts",
+    "authors": "Ryumei Nakada, Wenlong Ji, Tianxi Cai, James Zou, Linjun Zhang",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2503.20561",
+    "venue": "Preprint",
+    "category": "Technical Reports",
+    "kind": "preprint",
+    "extra_links": []
+  },
+  {
+    "authors": "Siwei Han, Kaiwen Xiong, Jiaqi Liu, Xinyu Ye, Yaofeng Su, Wenbo Duan, Xinyuan Liu, Cihang Xie, Mohit Bansal, Mingyu Ding, Linjun Zhang, Huaxiu Yao",
+    "year": 2025,
+    "venue": "Preprint",
+    "category": "Statistical Foundations of Large Language Models (LLMs)",
+    "kind": "preprint",
+    "extra_links": [],
+    "new": true,
+    "title": "Alignment Tipping Process: How Self-Evolution Pushes LLM Agents Off the Rails",
+    "url": "https://arxiv.org/abs/2510.04860",
+    "sources": [
+      "https://scholar.google.com/citations?user=TUAzs3sAAAAJ&hl=en&sortby=pubdate&pagesize=100",
+      "https://arxiv.org/abs/2510.04860"
+    ]
+  },
+  {
+    "authors": "Pengfei Lyu, Zhengchi Ma, Linjun Zhang, Anru R. Zhang",
+    "year": 2025,
+    "venue": "Preprint",
+    "category": "High-dimensional Statistics (with Distribution Shifts)",
+    "kind": "preprint",
+    "extra_links": [],
+    "new": true,
+    "title": "Bias-Corrected Data Synthesis for Imbalanced Learning",
+    "url": "https://arxiv.org/abs/2510.26046",
+    "sources": [
+      "https://scholar.google.com/citations?user=TUAzs3sAAAAJ&hl=en&sortby=pubdate&pagesize=100",
+      "https://arxiv.org/abs/2510.26046"
+    ]
+  },
+  {
+    "title": "Contrastive Network Representation Learning",
+    "authors": "Zihan Dong, Xin Zhou, Ryumei Nakada, Lexin Li, and Linjun Zhang",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2509.11316",
+    "venue": "Preprint",
+    "category": "Technical Reports",
+    "kind": "preprint",
+    "extra_links": []
+  },
+  {
+    "authors": "Xiaotian Hou, Peng Wang, Minge Xie, Linjun Zhang",
+    "year": 2025,
+    "venue": "Preprint",
+    "category": "High-dimensional Statistics (with Distribution Shifts)",
+    "kind": "preprint",
+    "extra_links": [],
+    "new": true,
+    "title": "Repro Samples Method for Model-Free Inference in High-Dimensional Binary Classification",
+    "url": "https://arxiv.org/abs/2510.01468",
+    "sources": [
+      "https://scholar.google.com/citations?user=TUAzs3sAAAAJ&hl=en&sortby=pubdate&pagesize=100",
+      "https://arxiv.org/abs/2510.01468"
+    ]
+  },
+  {
+    "title": "Statistical Inference for Differentially Private Stochastic Gradient Descent",
+    "authors": "Xintao Xia, Linjun Zhang, Zhanrui Cai",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2507.20560",
+    "venue": "Preprint",
+    "category": "Technical Reports",
+    "kind": "preprint",
+    "extra_links": []
+  },
+  {
+    "authors": "Federico Bianchi, Yongchan Kwon, Zachary Izzo, Linjun Zhang, James Zou",
+    "year": 2025,
+    "venue": "Preprint",
+    "category": "Statistical Foundations of Large Language Models (LLMs)",
+    "kind": "preprint",
+    "extra_links": [],
+    "new": true,
+    "title": "To Err Is Human: Systematic Quantification of Errors in Published AI Papers via LLM Analysis",
+    "url": "https://arxiv.org/abs/2512.05925",
+    "sources": [
+      "https://scholar.google.com/citations?user=TUAzs3sAAAAJ&hl=en&sortby=pubdate&pagesize=100",
+      "https://arxiv.org/abs/2512.05925"
+    ]
+  },
+  {
+    "authors": "Fan Nie, Ken Ziyu Liu, Zihao Wang, Rui Sun, Wei Liu, Weijia Shi, Huaxiu Yao, Linjun Zhang, Andrew Y. Ng, James Zou, Sanmi Koyejo, Yejin Choi, Percy Liang, Niklas Muennighoff",
+    "year": 2025,
+    "venue": "Preprint",
+    "category": "Statistical Foundations of Large Language Models (LLMs)",
+    "kind": "preprint",
+    "extra_links": [],
+    "new": true,
+    "title": "UQ: Assessing Language Models on Unsolved Questions",
+    "url": "https://arxiv.org/abs/2508.17580",
+    "sources": [
+      "https://scholar.google.com/citations?user=TUAzs3sAAAAJ&hl=en&sortby=pubdate&pagesize=100",
+      "https://arxiv.org/abs/2508.17580"
+    ]
+  },
+  {
+    "title": "Analyzing and mitigating object hallucination in large vision-language models",
+    "authors": "Yiyang Zhou, Chenhang Cui, Jaehong Yoon, Linjun Zhang, Zhun Deng, Chelsea Finn, Mohit Bansal, Huaxiu Yao",
+    "year": 2024,
+    "url": "https://arxiv.org/abs/2310.00754",
+    "venue": "ICLR 2024",
+    "category": "Statistical Foundations of Large Language Models (LLMs)",
+    "kind": "publication",
+    "extra_links": []
+  },
+  {
+    "title": "Calibrated Self-Rewarding Vision Language Models",
+    "authors": "Yiyang Zhou, Zhiyuan Fan, Dongjie Cheng, Sihan Yang, Zhaorun Chen, Chenhang Cui, Xiyao Wang, Yun Li, Linjun Zhang, and Huaxiu Yao",
+    "year": 2024,
+    "url": "https://arxiv.org/abs/2405.14622",
+    "venue": "NeurIPS 2024",
+    "category": "Statistical Foundations of Large Language Models (LLMs)",
+    "kind": "publication",
+    "extra_links": []
+  },
+  {
+    "title": "Conformal Prediction for Deep Classifier via Label Ranking",
+    "authors": "Jianguo Huang, HuaJun Xi, Linjun Zhang, Huaxiu Yao, Yue Qiu, Hongxin Wei",
+    "year": 2024,
+    "url": "https://arxiv.org/abs/2310.06430",
+    "venue": "ICML 2024",
+    "category": "Deep Learning (with focus on representation learning)",
+    "kind": "publication",
+    "extra_links": []
+  },
+  {
+    "title": "Estimation and Inference in High-Dimensional Generalized Linear Models with Knowledge Transfer",
+    "authors": "Sai Li, Linjun Zhang, T. Tony Cai, and Hongzhe Li",
+    "year": 2024,
+    "url": "https://www.tandfonline.com/doi/full/10.1080/01621459.2023.2184373",
+    "venue": "Journal of the American Statistical Association",
+    "category": "High-dimensional Statistics (with Distribution Shifts)",
+    "kind": "publication",
+    "extra_links": []
+  },
+  {
+    "title": "Fair Risk Control: A Generalized Framework for Calibrating Multi-group Fairness Risks",
+    "authors": "* Lujing Zhang, Aaron Roth, Linjun Zhang",
+    "year": 2024,
+    "url": "https://arxiv.org/abs/2405.02225",
+    "venue": "ICML 2024",
+    "category": "Algorithmic Fairness",
+    "kind": "publication",
+    "extra_links": [],
+    "sources": [
+      "https://scholar.google.com/citations?user=TUAzs3sAAAAJ&hl=en&sortby=pubdate&pagesize=100",
+      "https://arxiv.org/abs/2405.02225"
+    ]
+  },
+  {
+    "title": "Order-Independence Without Fine Tuning",
+    "authors": "Reid McIlroy-Young, Katrina Brown, Conlan Olson, Linjun Zhang, and Cynthia Dwork",
+    "year": 2024,
+    "url": "https://arxiv.org/abs/2406.06581",
+    "venue": "NeurIPS 2024",
+    "category": "Statistical Foundations of Large Language Models (LLMs)",
+    "kind": "publication",
+    "extra_links": []
+  },
+  {
+    "title": "RULE: Reliable Multimodal RAG for Factuality in Medical Vision Language Models",
+    "authors": "Peng Xia, Kangyu Zhu, Haoran Li, Hongtu Zhu, Yun Li, Gang Li, Linjun Zhang, and Huaxiu Yao",
+    "year": 2024,
+    "url": "https://arxiv.org/abs/2407.05131",
+    "venue": "EMNLP 2024",
+    "category": "Statistical Foundations of Large Language Models (LLMs)",
+    "kind": "publication",
+    "extra_links": []
+  },
+  {
+    "title": "S2FT: Efficient, Scalable and Generalizable LLM Fine-tuning by Structured Sparsity",
+    "authors": "Xinyu Yang, Jixuan Leng, Geyang Guo, Jiawei Zhao, Ryumei Nakada, Linjun Zhang, Huaxiu Yao, and Beidi Chen",
+    "year": 2024,
+    "url": "https://arxiv.org/abs/2412.06289",
+    "venue": "NeurIPS 2024",
+    "category": "Statistical Foundations of Large Language Models (LLMs)",
+    "kind": "publication",
+    "extra_links": []
+  },
+  {
+    "title": "What Should Data Science Education Do with Large Language Models?",
+    "authors": "Xinming Tu, James Zou, Weijie Su and Linjun Zhang",
+    "year": 2024,
+    "url": "https://arxiv.org/abs/2307.02792",
+    "venue": "Harvard Data Science Review",
+    "category": "Statistical Foundations of Large Language Models (LLMs)",
+    "kind": "publication",
+    "extra_links": []
+  },
+  {
+    "title": "FAIRM: Learning Invariant Representations for Algorithmic Fairness and Domain Generalization with Minimax Optimality",
+    "authors": "Sai Li and Linjun Zhang",
+    "year": 2024,
+    "url": "https://arxiv.org/abs/2404.01608",
+    "venue": "Preprint",
+    "category": "Technical Reports",
+    "kind": "preprint",
+    "extra_links": []
+  },
+  {
+    "title": "Provable Multi-Party Reinforcement Learning with Diverse Human Feedback",
+    "authors": "Huiying Zhong, Zhun Deng, Weijie J Su, Zhiwei Steven Wu, and Linjun Zhang",
+    "year": 2024,
+    "url": "https://arxiv.org/abs/2403.05006",
+    "venue": "Preprint",
+    "category": "Technical Reports",
+    "kind": "preprint",
+    "extra_links": []
+  },
+  {
+    "title": "Synthetic Oversampling: Theory and A Practical Approach Using LLMs to Address Data Imbalance",
+    "authors": "Ryumei Nakada, Yichen Xu, Lexin Li, Linjun Zhang",
+    "year": 2024,
+    "url": "https://arxiv.org/abs/2406.03628",
+    "venue": "Preprint",
+    "category": "Technical Reports",
+    "kind": "preprint",
+    "extra_links": []
+  },
+  {
+    "title": "Beyond Confidence: Reliable Models Should Also Consider Atypicality",
+    "authors": "Mert Yuksekgonul, Linjun Zhang, James Zou, Carlos Guestrin",
+    "year": 2023,
+    "url": "https://arxiv.org/abs/2305.18262",
+    "venue": "NeurIPS 2023",
+    "category": "Deep Learning (with focus on representation learning)",
+    "kind": "publication",
+    "extra_links": [],
+    "sources": [
+      "https://scholar.google.com/citations?user=TUAzs3sAAAAJ&hl=en&sortby=pubdate&pagesize=100",
+      "https://arxiv.org/abs/2305.18262"
+    ]
+  },
+  {
+    "title": "Discover and Cure: Concept-aware Mitigation of Spurious Correlation",
+    "authors": "Shirley Wu, Mert Yuksekgonul, Linjun Zhang and James Zou",
+    "year": 2023,
+    "url": "https://arxiv.org/abs/2305.00650",
+    "venue": "ICML 2023",
+    "category": "Algorithmic Fairness",
+    "kind": "publication",
+    "extra_links": []
+  },
+  {
+    "title": "FaiREE: Fair Classification with Finite-Sample and Distribution-Free Guarantee",
+    "authors": "Puheng Li, James Zou, and Linjun Zhang",
+    "year": 2023,
+    "url": "https://arxiv.org/abs/2211.15072",
+    "venue": "ICLR 2023",
+    "category": "Algorithmic Fairness",
+    "kind": "publication",
+    "extra_links": []
+  },
+  {
+    "title": "FIFA: Making Fairness More Generalizable in Classifiers Trained on Imbalanced Data",
+    "authors": "Zhun Deng, Jiayao Zhang, Linjun Zhang, Ting Ye, Yates Coley, Weijie J. Su, and James Zou",
+    "year": 2023,
+    "url": "https://arxiv.org/abs/2206.02792",
+    "venue": "ICLR 2023",
+    "category": "Algorithmic Fairness",
+    "kind": "publication",
+    "extra_links": []
+  },
+  {
+    "title": "Freeze then Train: Towards Provable Representation Learning under Spurious Correlations and Feature Noise",
+    "authors": "Haotian Ye, James Zou, and Linjun Zhang",
+    "year": 2023,
+    "url": "https://arxiv.org/abs/2210.11075",
+    "venue": "AISTATS 2023",
+    "category": "Algorithmic Fairness",
+    "kind": "publication",
+    "extra_links": []
+  },
+  {
+    "title": "HappyMap: A Generalized Multi-calibration Method",
+    "authors": "* Zhun Deng, Cynthia Dwork, Linjun Zhang",
+    "year": 2023,
+    "url": "https://arxiv.org/abs/2303.04379",
+    "venue": "ITCS 2023",
+    "category": "Algorithmic Fairness",
+    "kind": "publication",
+    "extra_links": [],
+    "sources": [
+      "https://scholar.google.com/citations?user=TUAzs3sAAAAJ&hl=en&sortby=pubdate&pagesize=100",
+      "https://arxiv.org/abs/2303.04379"
+    ]
+  },
+  {
+    "title": "Reinforcement Learning with Stepwise Fairness Constraints",
+    "authors": "Zhun Deng, He Sun, Zhiwei Steven Wu, Linjun Zhang and David C. Parkes",
+    "year": 2023,
+    "url": "https://arxiv.org/abs/2211.03994",
+    "venue": "AISTATS 2023",
+    "category": "Algorithmic Fairness",
+    "kind": "publication",
+    "extra_links": []
+  },
+  {
+    "title": "Sparse Topic Modeling: Computational Efficiency, Near-Optimal Algorithms, and Statistical Inference",
+    "authors": "Ruijia Wu, Linjun Zhang, and T. Tony Cai",
+    "year": 2023,
+    "url": "",
+    "venue": "Journal of the American Statistical Association",
+    "category": "High-dimensional Statistics (with Distribution Shifts)",
+    "kind": "publication",
+    "extra_links": []
+  },
+  {
+    "title": "The Power of Contrast for Feature Learning: A Theoretical Analysis",
+    "authors": "Wenlong Ji, Zhun Deng, Ryumei Nakada, James Zou and Linjun Zhang",
+    "year": 2023,
+    "url": "https://arxiv.org/abs/2110.02473",
+    "venue": "Journal of Machine Learning Research",
+    "category": "Deep Learning (with focus on representation learning)",
+    "kind": "publication",
+    "extra_links": []
+  },
+  {
+    "title": "Understanding Multimodal Contrastive Learning and Incorporating Unpaired Data",
+    "authors": "Ryumei Nakada, Halil Ibrahim Gulluk, Zhun Deng, Wenlong Ji, James Zou and Linjun Zhang",
+    "year": 2023,
+    "url": "https://arxiv.org/abs/2302.06232",
+    "venue": "AISTATS 2023",
+    "category": "Deep Learning (with focus on representation learning)",
+    "kind": "publication",
+    "extra_links": []
+  },
+  {
+    "title": "Score Attack: A Lower Bound Technique for Optimal Differentially Private Learning",
+    "authors": "* T. Tony Cai, Yichen Wang, Linjun Zhang",
+    "year": 2023,
+    "url": "https://arxiv.org/abs/2303.07152",
+    "venue": "Preprint",
+    "category": "Private Data Analysis",
+    "kind": "preprint",
+    "extra_links": [],
+    "sources": [
+      "https://scholar.google.com/citations?user=TUAzs3sAAAAJ&hl=en&sortby=pubdate&pagesize=100",
+      "https://arxiv.org/abs/2303.07152"
+    ]
+  },
+  {
+    "title": "C-Mixup: Improving Generalization in Regression",
+    "authors": "Huaxiu Yao, Yiping Wang, Linjun Zhang, James Zou, and Chelsea Finn",
+    "year": 2022,
+    "url": "https://arxiv.org/abs/2210.05775",
+    "venue": "NeurIPS 2022",
+    "category": "Deep Learning (with focus on representation learning)",
+    "kind": "publication",
+    "extra_links": []
+  },
+  {
+    "title": "Improving Out-of-Distribution Robustness via Selective Augmentation",
+    "authors": "Huaxiu Yao, Yu Wang, Sai Li, Linjun Zhang, Weixin Liang, James Zou and Chelsea Finn",
+    "year": 2022,
+    "url": "https://arxiv.org/abs/2201.00299",
+    "venue": "ICML 2022",
+    "category": "Algorithmic Fairness",
+    "kind": "publication",
+    "extra_links": []
+  },
+  {
+    "title": "Meta-Learning with Fewer Tasks through Task Interpolation",
+    "authors": "Huaxiu Yao, Linjun Zhang and Chelsea Finn",
+    "year": 2022,
+    "url": "https://arxiv.org/abs/2106.02695",
+    "venue": "ICLR 2022, selected as the oral presentation (top 1.5% of submissions)",
+    "category": "Deep Learning (with focus on representation learning)",
+    "kind": "publication",
+    "extra_links": []
+  },
+  {
+    "title": "Understanding Dynamics of Nonlinear Representation Learning and Its Application",
+    "authors": "Kenji Kawaguchi, Linjun Zhang and Zhun Deng",
+    "year": 2022,
+    "url": "https://arxiv.org/abs/2106.14836",
+    "venue": "Neural Computation",
+    "category": "Deep Learning (with focus on representation learning)",
+    "kind": "publication",
+    "extra_links": []
+  },
+  {
+    "title": "When and How Mixup Improves Calibration",
+    "authors": "** Linjun Zhang, ** Zhun Deng, Kenji Kawaguchi and James Zou",
+    "year": 2022,
+    "url": "https://arxiv.org/abs/2102.06289",
+    "venue": "ICML 2022",
+    "category": "Deep Learning (with focus on representation learning)",
+    "kind": "publication",
+    "extra_links": []
+  },
+  {
+    "title": "Finite-and Large-Sample Inference for Model and Coefficients in High-dimensional Linear Regression with Repro Samples",
+    "authors": "Peng Wang, Min-Ge Xie and Linjun Zhang",
+    "year": 2022,
+    "url": "https://arxiv.org/abs/2209.09299",
+    "venue": "Preprint",
+    "category": "Technical Reports",
+    "kind": "preprint",
+    "extra_links": []
+  },
+  {
+    "title": "A Central Limit Theorem for Differentially Private Query Answering",
+    "authors": "* Jinshuo Dong, Weijie Su, and Linjun Zhang",
+    "year": 2021,
+    "url": "https://arxiv.org/abs/2103.08721",
+    "venue": "NeurIPS 2021, and selected as spotlight (top 3% of submissions)",
+    "category": "Private Data Analysis",
+    "kind": "publication",
+    "extra_links": []
+  },
+  {
+    "title": "A Convex Optimization Approach to High-dimensional Sparse Quadratic Discriminant Analysis",
+    "authors": "* T. Tony Cai, and Linjun Zhang",
+    "year": 2021,
+    "url": "https://arxiv.org/abs/1912.02872",
+    "venue": "Annals of Statistics",
+    "category": "High-dimensional Statistics (with Distribution Shifts)",
+    "kind": "publication",
+    "extra_links": []
+  },
+  {
+    "title": "Adversarial Training Helps Transfer Learning via Better Representations",
+    "authors": "** Zhun Deng, ** Linjun Zhang, Kailas Vodrahalli, Kenji Kawaguchi, and James Zou",
+    "year": 2021,
+    "url": "https://arxiv.org/abs/2106.10189",
+    "venue": "NeurIPS 2021",
+    "category": "Deep Learning (with focus on representation learning)",
+    "kind": "publication",
+    "extra_links": []
+  },
+  {
+    "title": "How Does Mixup Help With Robustness and Generalization?",
+    "authors": "**Linjun Zhang, **Zhun Deng, **Kenji Kawaguchi, Amirata Ghorbani, and James Zou",
+    "year": 2021,
+    "url": "https://openreview.net/pdf?id=8yKEo06dKNo",
+    "venue": "ICLR 2021, and selected as spotlight (top 5% of submissions)",
+    "category": "Deep Learning (with focus on representation learning)",
+    "kind": "publication",
+    "extra_links": [
+      {
+        "url": "https://github.com/linjunz/Mixup/blob/main/Slides-mixup.pdf",
+        "label": "Slides"
+      }
+    ]
+  },
+  {
+    "title": "Improving Adversarial Robustness via Unlabeled Out-of-Domain Data",
+    "authors": "** Zhun Deng, ** Linjun Zhang, Amirata Ghorbani, and James Zou",
+    "year": 2021,
+    "url": "https://arxiv.org/abs/2006.08476",
+    "venue": "AISTATS 2021, and selected as the oral presentation (top 3% of submissions)",
+    "category": "Deep Learning (with focus on representation learning)",
+    "kind": "publication",
+    "extra_links": []
+  },
+  {
+    "title": "Improving Generalization in Meta-learning via Task Augmentation",
+    "authors": "Huaxiu Yao, Longkai Huang, Linjun Zhang, Ying Wei, Li Tian, James Zou, Junzhou Huang and Zhenhui Li",
+    "year": 2021,
+    "url": "https://arxiv.org/abs/2007.13040",
+    "venue": "ICML 2021",
+    "category": "Deep Learning (with focus on representation learning)",
+    "kind": "publication",
+    "extra_links": []
+  },
+  {
+    "title": "The Cost of Privacy: Optimal Rates of Convergence for Parameter Estimation with Differential Privacy",
+    "authors": "* T. Tony Cai, Yichen Wang and Linjun Zhang",
+    "year": 2021,
+    "url": "https://arxiv.org/abs/1902.04495",
+    "venue": "Annals of Statistics",
+    "category": "Private Data Analysis",
+    "kind": "publication",
+    "extra_links": []
+  },
+  {
+    "title": "High-Dimensional Differentially-Private EM Algorithm: Methods and Near-Optimal Statistical Guarantees",
+    "authors": "Zhe Zhang and Linjun Zhang",
+    "year": 2021,
+    "url": "https://arxiv.org/abs/2104.00245",
+    "venue": "Preprint",
+    "category": "Technical Reports",
+    "kind": "preprint",
+    "extra_links": []
+  },
+  {
+    "title": "Scaffolding Sets",
+    "authors": "* Maya Burhanpurkar, Zhun Deng, Cynthia Dwork and Linjun Zhang",
+    "year": 2021,
+    "url": "https://arxiv.org/abs/2111.03135",
+    "venue": "Preprint",
+    "category": "Technical Reports",
+    "kind": "preprint",
+    "extra_links": []
+  },
+  {
+    "title": "Interpreting Robust Optimization via Adversarial Influence Functions",
+    "authors": "* Zhun Deng, Cynthia Dwork, Jialiang Wang, and Linjun Zhang",
+    "year": 2020,
+    "url": "http://proceedings.mlr.press/v119/deng20a.html",
+    "venue": "ICML 2020",
+    "category": "Deep Learning (with focus on representation learning)",
+    "kind": "publication",
+    "extra_links": []
+  },
+  {
+    "title": "Privacy-Preserving Algorithms: the Gain and the Loss",
+    "authors": "Zhe Zhang and Linjun Zhang",
+    "year": 2020,
+    "url": "https://www.tandfonline.com/doi/full/10.1080/09332480.2020.1847956",
+    "venue": "CHANCE 33 (4), 22-28",
+    "category": "Private Data Analysis",
+    "kind": "publication",
+    "extra_links": []
+  },
+  {
+    "title": "Estimation, Confidence Intervals, and Large-Scale Hypotheses Testing for High-Dimensional Mixed Linear Regression",
+    "authors": "Linjun Zhang, Rong Ma, T. Tony Cai, and Hongzhe Li",
+    "year": 2020,
+    "url": "https://arxiv.org/abs/2011.03598",
+    "venue": "Preprint",
+    "category": "Technical Reports",
+    "kind": "preprint",
+    "extra_links": []
+  },
+  {
+    "title": "The Cost of Privacy in Generalized Linear Models: Algorithms and Minimax Lower Bounds",
+    "authors": "* T. Tony Cai, Yichen Wang and Linjun Zhang",
+    "year": 2020,
+    "url": "https://arxiv.org/abs/2011.03900",
+    "venue": "Preprint",
+    "category": "Technical Reports",
+    "kind": "preprint",
+    "extra_links": []
+  },
+  {
+    "title": "CHIME: Clustering of High-Dimensional Gaussian Mixtures with EM Algorithm and Its Optimality",
+    "authors": "* T. Tony Cai, Jing Ma and Linjun Zhang",
+    "year": 2019,
+    "url": "https://doi.org/10.1214/18-AOS1711",
+    "venue": "Annals of Statistics",
+    "category": "High-dimensional Statistics (with Distribution Shifts)",
+    "kind": "publication",
+    "extra_links": [],
+    "sources": [
+      "https://scholar.google.com/citations?user=TUAzs3sAAAAJ&hl=en&sortby=pubdate&pagesize=100",
+      "https://www.imstat.org/publications/aos/aos_47_3/aos_47_3.pdf"
+    ]
+  },
+  {
+    "title": "High-dimensional Linear Discriminant Analysis: Optimality, Adaptivity, and Missing Data",
+    "authors": "* T. Tony Cai, and Linjun Zhang",
+    "year": 2019,
+    "url": "https://rss.onlinelibrary.wiley.com/doi/full/10.1111/rssb.12326",
+    "venue": "Journal of Royal Statistical Society, B",
+    "category": "High-dimensional Statistics (with Distribution Shifts)",
+    "kind": "publication",
+    "extra_links": []
+  },
+  {
+    "title": "Double Cross Validation for the Number of Factors in Approximate Factor Models",
+    "authors": "Xianli Zeng, Yingcun Xia, and Linjun Zhang",
+    "year": 2019,
+    "url": "https://arxiv.org/abs/1907.01670",
+    "venue": "Preprint",
+    "category": "Technical Reports",
+    "kind": "preprint",
+    "extra_links": [],
+    "sources": [
+      "https://scholar.google.com/citations?user=TUAzs3sAAAAJ&hl=en&sortby=pubdate&pagesize=100"
+    ]
+  },
+  {
+    "title": "High-Dimensional Gaussian Copula Regression: Adaptive Estimation and Statistical Inference",
+    "authors": "* T. Tony Cai, and Linjun Zhang",
+    "year": 2018,
+    "url": "http://www3.stat.sinica.edu.tw/sstest/J28N2/J28N219/J28N219.html",
+    "venue": "Statistica Sinica , 2018, Vol. 28, 963-993",
+    "category": "High-dimensional Statistics (with Distribution Shifts)",
+    "kind": "publication",
+    "extra_links": []
+  },
+  {
+    "title": "Adaptive Functional Linear Regression",
+    "authors": "* T. Tony Cai, Linjun Zhang and Harrison H. Zhou",
+    "year": 2017,
+    "url": "http://www3.stat.sinica.edu.tw/preprint/SS-2017-0099_Preprint.pdf",
+    "venue": "Statistica Sinica",
+    "category": "High-dimensional Statistics (with Distribution Shifts)",
+    "kind": "publication",
+    "extra_links": []
+  },
+  {
+    "title": "Discussion: Important feature PCA for high dimensional clustering",
+    "authors": "* T. Tony Cai, and Linjun Zhang",
+    "year": 2016,
+    "url": "https://arxiv.org/abs/1602.05236",
+    "venue": "Annals of Statistics , 2016, Vol. 44, No. 6, 2372-2381",
+    "category": "High-dimensional Statistics (with Distribution Shifts)",
+    "kind": "publication",
+    "extra_links": []
+  },
+  {
+    "title": "Exactly scale-free scale-free networks",
+    "authors": "Linjun Zhang, Michael Small, and Kevin Judd",
+    "year": 2015,
+    "url": "https://www.sciencedirect.com/science/article/pii/S0378437115003362",
+    "venue": "Physica A , 433: 182-197",
+    "category": "Network Analysis",
+    "kind": "publication",
+    "extra_links": []
+  },
+  {
+    "title": "How is that complex network complex?",
+    "authors": "Michael Small, Kevin Judd, L. Zhang",
+    "year": 2014,
+    "url": "https://doi.org/10.1109/ISCAS.2014.6865372",
+    "venue": "ISCAS 2014, 1263–1266 (invited paper)",
+    "category": "Network Analysis",
+    "kind": "publication",
+    "extra_links": [],
+    "sources": [
+      "https://research-repository.uwa.edu.au/en/publications/how-is-that-complex-network-complex/"
+    ]
+  },
+  {
+    "title": "Random complex networks",
+    "authors": "Michael Small, Lvlin Hou, and Linjun Zhang",
+    "year": 2014,
+    "url": "https://academic.oup.com/nsr/article/1/3/357/2460737",
+    "venue": "National Science Review, 1(3), 357–367",
+    "category": "Network Analysis",
+    "kind": "publication",
+    "extra_links": [],
+    "sources": [
+      "https://research-repository.uwa.edu.au/en/publications/random-complex-networks"
+    ]
+  }
+]

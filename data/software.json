@@ -1,0 +1,8 @@
+[
+  {"name":"CHIME","language":"MATLAB","url":"https://github.com/drjingma/gmm","description":"Sparse clustering of high-dimensional Gaussian mixture models with the EM algorithm."},
+  {"name":"ADAM","language":"R","url":"https://github.com/linjunz/ADAM","description":"Tuning-free high-dimensional linear discriminant analysis with missing data."},
+  {"name":"MLTI","language":"Python","url":"https://github.com/huaxiuyao/MLTI","paper":"https://arxiv.org/abs/2106.02695","description":"Meta-learning with fewer tasks through task interpolation."},
+  {"name":"MetaMIX","language":"Python","url":"https://github.com/huaxiuyao/MetaMix","paper":"https://arxiv.org/abs/2007.13040","description":"Improving generalization in meta-learning via task augmentation."},
+  {"name":"LISA","language":"Python","url":"https://github.com/huaxiuyao/LISA","paper":"https://arxiv.org/abs/2201.00299","description":"Improving out-of-distribution robustness via selective augmentation."},
+  {"name":"FaiREE","language":"Python","url":"https://github.com/lphLeo/FaiREE/","paper":"https://arxiv.org/abs/2211.15072","description":"Fair classification with finite-sample and distribution-free guarantees."}
+]
