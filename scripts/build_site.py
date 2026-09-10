@@ -77,7 +77,9 @@ def academic_service():
                 name = link(item['url'], name)
             details = ''.join(f'<span class="service-detail">{escape(detail)}</span>' for detail in item.get('details', []))
             note = f' ({escape(item["note"])})' if item.get('note') else ''
-            content += f'<li>{name}{note}{details}</li>'
+            label = f'<strong>{escape(item["label"])}</strong>: ' if item.get('label') else ''
+            extra_links = ''.join(f'<span class="service-detail">{link(extra["url"], escape(extra["label"]))}</span>' for extra in item.get('extra_links', []))
+            content += f'<li>{label}{name}{note}{details}{extra_links}</li>'
         content += '</ul></section>'
     return content + '</div>'
 

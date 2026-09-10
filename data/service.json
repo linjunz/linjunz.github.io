@@ -56,5 +56,25 @@
       }
     ],
     "layout": "inline"
+  },
+  {
+    "role": "Workshop Organizer",
+    "entries": [
+      {
+        "label": "DIMACS Workshop",
+        "name": "Analysis of Census Noisy Measurement Files and Differential Privacy",
+        "url": "http://dimacs.rutgers.edu/events/details?eID=2038",
+        "details": [
+          "April 28–29, 2022 · New Brunswick, NJ",
+          "Co-organized with Cynthia Dwork, Robin Gong, and Weijie Su."
+        ],
+        "extra_links": [
+          {
+            "label": "Videos available on YouTube ↗",
+            "url": "https://www.youtube.com/playlist?list=PLKVCRT3MRed733-w2Lo2yvCAkac9zdIVj"
+          }
+        ]
+      }
+    ]
   }
 ]
