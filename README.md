@@ -6,6 +6,7 @@ The site is a static website hosted by GitHub Pages. Existing page addresses are
 
 - `data/profile.json`: recruitment year and update date.
 - `data/publications.json`: paper titles, full author lists, years, venues, and links. `sources` records verification references; it is not shown on the page.
+- `data/service.json`: editorial appointments and conference service, shared by Home and About.
 - `data/people.json`: students, alumni, and research interns.
 - `data/teaching.json`: course history and available materials.
 - `data/software.json`: research software.

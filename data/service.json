@@ -1,0 +1,52 @@
+[
+  {
+    "role": "Associate Editor",
+    "entries": [
+      {
+        "name": "Journal of the American Statistical Association (JASA)",
+        "details": "Theory and Methods (T&M); Applications and Case Studies (A&CS); Reviews",
+        "url": "https://www.tandfonline.com/journals/uasa19"
+      },
+      {
+        "name": "The Annals of Applied Statistics (AOAS)"
+      },
+      {
+        "name": "Statistical Science (STS)"
+      },
+      {
+        "name": "Journal of Privacy and Confidentiality (JPC)",
+        "url": "https://journalprivacyconfidentiality.org/index.php/jpc/about/editorialTeam"
+      },
+      {
+        "name": "Transactions on Machine Learning Research (TMLR)",
+        "url": "https://jmlr.org/tmlr/editorial-board.html"
+      }
+    ]
+  },
+  {
+    "role": "Area Chair",
+    "entries": [
+      {
+        "name": "NeurIPS"
+      },
+      {
+        "name": "ICML"
+      },
+      {
+        "name": "ICLR"
+      }
+    ]
+  },
+  {
+    "role": "Co-chair",
+    "entries": [
+      {
+        "name": "STAI-X 2026",
+        "url": "https://statsupai.org/STAIX2026/organizers.html"
+      },
+      {
+        "name": "ICSA China 2027"
+      }
+    ]
+  }
+]

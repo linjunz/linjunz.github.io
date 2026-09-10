@@ -28,7 +28,7 @@ def shell(name, body, description):
   <meta name="description" content="{escape(description, quote=True)}">
   <link rel="canonical" href="https://linjunz.github.io/{'' if name == 'Home' else filename}">
   <link rel="icon" href="icon.jpg" type="image/jpeg">
-  <link rel="stylesheet" href="assets/site.css?v=portrait-2">
+  <link rel="stylesheet" href="assets/site.css?v=service-1">
   <script src="assets/site.js" defer></script>
 </head>
 <body data-page="{name}">
@@ -65,6 +65,20 @@ def research_summary():
 def research_support():
     return f'''My research is partially supported by NSF CAREER {link('https://www.nsf.gov/awardsearch/showAward?AWD_ID=2340241','DMS-2340241')} (PI); NSF {link('https://www.nsf.gov/awardsearch/showAward?AWD_ID=2413107','DMS-2413107')} (co-PI); and the Renaissance Philanthropy {link('https://www.renaissancephilanthropy.org/crowdsourcing-and-reinventing-the-next-generation-of-dynamic-and-scalable-math-benchmarks','AI for Math Fund')} (co-PI).'''
 
+def academic_service():
+    groups = json.loads((ROOT / 'data/service.json').read_text())
+    content = '<div class="service-groups">'
+    for group in groups:
+        content += f'<section class="service-group"><h3>{escape(group["role"])}</h3><ul>'
+        for item in group['entries']:
+            name = escape(item['name'])
+            if item.get('url'):
+                name = link(item['url'], name)
+            details = f'<span class="service-detail">{escape(item["details"])}</span>' if item.get('details') else ''
+            content += f'<li>{name}{details}</li>'
+        content += '</ul></section>'
+    return content + '</div>'
+
 def intro(eyebrow,title,description):
     return f'<header class="page-intro"><p class="eyebrow">{eyebrow}</p><h1>{title}</h1><p>{description}</p></header>'
 
@@ -82,12 +96,14 @@ def home():
 <p class="intro">I received my Ph.D. in Statistics from the University of Pennsylvania in 2019, advised by {link('http://www-stat.wharton.upenn.edu/~tcai/','T. Tony Cai')}.</p>
 <div class="contact-links">{link('mailto:'+EMAIL,'Email ↗')}{link(SCHOLAR,'Google Scholar ↗')}{link(CV,'Curriculum vitae ↗')}</div></div>
 <figure class="portrait"><img src="assets/portrait-natural.jpg" width="600" height="900" alt="Portrait of Linjun Zhang" fetchpriority="high"></figure>
-</section>{opportunity()}
+</section>
 <section class="split-section" aria-labelledby="interests"><div><span class="section-number">01 / RESEARCH</span><h2 id="interests">Research interests</h2></div><div class="topics">
 <div class="topic">Efficient AI evaluation<span>Statistical efficiency · Evaluation reliability</span></div><div class="topic">AI safety<span>Data privacy · Statistical watermarking · Algorithmic bias</span></div><div class="topic">AI agents<span>Statistical principles of harness engineering</span></div><div class="topic">Representation learning<span>Self-supervision · Learning theory</span></div>
 </div></section>
 <section class="split-section" aria-labelledby="recent"><div><span class="section-number">02 / PAPERS</span><h2 id="recent">Highlighted recent work</h2>{link('Research.html','All research ↗',' class="link-arrow"')}</div><ul class="paper-list home-recent">{''.join(paper_item(p,True) for p in recent)}</ul></section>
-<section class="split-section" aria-labelledby="support"><div><span class="section-number">03 / SUPPORT</span><h2 id="support">Research support</h2></div><p class="funding">{research_support()}</p></section>'''
+<section class="split-section" aria-labelledby="support"><div><span class="section-number">03 / SUPPORT</span><h2 id="support">Research support</h2></div><p class="funding">{research_support()}</p></section>
+<section class="split-section" aria-labelledby="service"><div><span class="section-number">04 / SERVICE</span><h2 id="service">Academic service</h2></div>{academic_service()}</section>
+{opportunity()}'''
     shell('Home', body, 'Linjun Zhang, Associate Professor of Statistics at Rutgers University. Statistical foundations for trustworthy and efficient AI: evaluation, safety, agents, and representation learning.')
 
 def research():
@@ -109,6 +125,7 @@ def about():
 <p>{research_summary()}</p>
 <p>{research_support()}</p>
 <p>{link(CV,'View curriculum vitae ↗')}</p></section>
+<section class="content-section" id="service"><h2>Academic service</h2>{academic_service()}</section>
 <section class="content-section" id="education"><h2>Education</h2>
 <div class="timeline-entry"><time>2019</time><h3>Ph.D. in Statistics</h3><p>University of Pennsylvania</p><p>Advisor: T. Tony Cai</p></div>
 <div class="timeline-entry"><time>2014</time><h3>B.S. in Statistics</h3><p>University of Science and Technology of China (USTC)</p><p>Hua Loo-Keng Talent Program in Mathematics</p><p>Guo-Moruo Award · summa cum laude, top 1%</p></div></section>
@@ -116,8 +133,8 @@ def about():
 <div class="timeline-entry"><time>Summer 2018</time><h3>Bell Labs</h3><p>Research Intern</p></div>
 <div class="timeline-entry"><time>Summer 2013</time><h3>University of Western Australia</h3><p>Undergraduate Research Assistant</p></div></section>'''
     body=intro('Background','About',f'Associate Professor of Statistics at Rutgers University. {link("mailto:"+EMAIL,EMAIL)}')
-    body+=side_layout([('biography','Biography'),('education','Education'),('experience','Research experience')],content)
-    shell('About',body,'Biography, education, research interests, and experience of Linjun Zhang at Rutgers University.')
+    body+=side_layout([('biography','Biography'),('service','Academic service'),('education','Education'),('experience','Research experience')],content)
+    shell('About',body,'Biography, academic service, education, research interests, and experience of Linjun Zhang at Rutgers University.')
 
 def people():
     people=json.loads((ROOT/'data/people.json').read_text())
