@@ -63,7 +63,7 @@ def research_summary():
     return 'My research connects statistical foundations with trustworthy and efficient AI. My recent research interests include efficient AI evaluation, AI safety (including data privacy, copyright, and algorithmic bias), statistical principles of AI agents, and representation learning.'
 
 def research_support():
-    return f'''My research is partially supported by NSF CAREER {link('https://www.nsf.gov/awardsearch/showAward?AWD_ID=2340241','DMS-2340241')} (PI); NSF {link('https://www.nsf.gov/awardsearch/showAward?AWD_ID=2413107','DMS-2413107')}, “Collaborative Research: Multi-source Learning: Data-driven Algorithms, Optimality Theory, and Applications”; and the Renaissance Philanthropy {link('https://www.renaissancephilanthropy.org/crowdsourcing-and-reinventing-the-next-generation-of-dynamic-and-scalable-math-benchmarks','AI for Math Fund')} (co-PI).'''
+    return f'''My research is partially supported by NSF CAREER {link('https://www.nsf.gov/awardsearch/showAward?AWD_ID=2340241','DMS-2340241')} (PI); NSF {link('https://www.nsf.gov/awardsearch/showAward?AWD_ID=2413107','DMS-2413107')} (co-PI); and the Renaissance Philanthropy {link('https://www.renaissancephilanthropy.org/crowdsourcing-and-reinventing-the-next-generation-of-dynamic-and-scalable-math-benchmarks','AI for Math Fund')} (co-PI).'''
 
 def intro(eyebrow,title,description):
     return f'<header class="page-intro"><p class="eyebrow">{eyebrow}</p><h1>{title}</h1><p>{description}</p></header>'
