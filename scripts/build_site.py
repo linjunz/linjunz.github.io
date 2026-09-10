@@ -84,7 +84,7 @@ def home():
 <figure class="portrait"><img src="assets/portrait-natural.jpg" width="600" height="900" alt="Portrait of Linjun Zhang" fetchpriority="high"><figcaption><span>Department of Statistics</span><span>Rutgers University</span></figcaption></figure>
 </section>{opportunity()}
 <section class="split-section" aria-labelledby="interests"><div><span class="section-number">01 / RESEARCH</span><h2 id="interests">Research interests</h2></div><div class="topics">
-<div class="topic">Efficient AI evaluation<span>Statistical efficiency · Evaluation reliability</span></div><div class="topic">AI safety<span>Data privacy · Copyright · Algorithmic bias</span></div><div class="topic">AI agents<span>Statistical principles</span></div><div class="topic">Representation learning<span>Self-supervision · Learning theory</span></div>
+<div class="topic">Efficient AI evaluation<span>Statistical efficiency · Evaluation reliability</span></div><div class="topic">AI safety<span>Data privacy · Statistical watermarking · Algorithmic bias</span></div><div class="topic">AI agents<span>Statistical principles of harness engineering</span></div><div class="topic">Representation learning<span>Self-supervision · Learning theory</span></div>
 </div></section>
 <section class="split-section" aria-labelledby="recent"><div><span class="section-number">02 / PAPERS</span><h2 id="recent">Highlighted recent work</h2>{link('Research.html','All research ↗',' class="link-arrow"')}</div><ul class="paper-list home-recent">{''.join(paper_item(p,True) for p in recent)}</ul></section>
 <section class="split-section" aria-labelledby="support"><div><span class="section-number">03 / SUPPORT</span><h2 id="support">Research support</h2></div><p class="funding">{research_support()}</p></section>'''
