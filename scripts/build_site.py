@@ -76,7 +76,8 @@ def academic_service():
             if item.get('url'):
                 name = link(item['url'], name)
             details = ''.join(f'<span class="service-detail">{escape(detail)}</span>' for detail in item.get('details', []))
-            content += f'<li>{name}{details}</li>'
+            note = f' ({escape(item["note"])})' if item.get('note') else ''
+            content += f'<li>{name}{note}{details}</li>'
         content += '</ul></section>'
     return content + '</div>'
 

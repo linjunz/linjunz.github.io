@@ -33,10 +33,12 @@
     "entries": [
       {
         "name": "STAI-X 2026",
-        "url": "https://statsupai.org/STAIX2026/"
+        "url": "https://statsupai.org/STAIX2026/",
+        "note": "co-chair with Edgar Dobriban, Xihong Lin, Wenyi Wang, and Tian Zheng"
       },
       {
-        "name": "ICSA China 2027"
+        "name": "ICSA China 2027",
+        "note": "co-chair with Jianfeng Feng and Jun S. Liu"
       }
     ]
   },
