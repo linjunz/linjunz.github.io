@@ -28,7 +28,7 @@ def shell(name, body, description):
   <meta name="description" content="{escape(description, quote=True)}">
   <link rel="canonical" href="https://linjunz.github.io/{'' if name == 'Home' else filename}">
   <link rel="icon" href="icon.jpg" type="image/jpeg">
-  <link rel="stylesheet" href="assets/site.css">
+  <link rel="stylesheet" href="assets/site.css?v=portrait-2">
   <script src="assets/site.js" defer></script>
 </head>
 <body data-page="{name}">
@@ -72,7 +72,7 @@ def home():
 <p class="intro">My research connects statistical foundations with trustworthy machine learning. I work on algorithmic fairness, privacy-preserving data analysis, machine learning theory and AI safety, high-dimensional inference, and self-supervised learning.</p>
 <p class="intro">I received my Ph.D. in Statistics from the University of Pennsylvania in 2019, advised by {link('http://www-stat.wharton.upenn.edu/~tcai/','T. Tony Cai')}.</p>
 <div class="contact-links">{link('mailto:'+EMAIL,'Email ↗')}{link(SCHOLAR,'Google Scholar ↗')}{link(CV,'Curriculum vitae ↗')}</div></div>
-<figure class="portrait"><img src="assets/portrait.jpg" width="800" height="788" alt="Portrait of Linjun Zhang" fetchpriority="high"><figcaption><span>Department of Statistics</span><span>Rutgers University</span></figcaption></figure>
+<figure class="portrait"><img src="assets/portrait-natural.jpg" width="600" height="900" alt="Portrait of Linjun Zhang" fetchpriority="high"><figcaption><span>Department of Statistics</span><span>Rutgers University</span></figcaption></figure>
 </section>{opportunity()}
 <section class="split-section" aria-labelledby="interests"><div><span class="section-number">01 / RESEARCH</span><h2 id="interests">Research interests</h2></div><div class="topics">
 <div class="topic">Trustworthy AI &amp; LLMs<span>Statistical foundations · AI safety</span></div><div class="topic">Fairness &amp; privacy<span>Algorithmic fairness · Private data analysis</span></div><div class="topic">High-dimensional statistics<span>Inference · Distribution shifts</span></div><div class="topic">Representation learning<span>Self-supervision · Learning theory</span></div>
