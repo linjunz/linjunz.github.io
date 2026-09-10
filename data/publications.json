@@ -27,20 +27,27 @@
     "sources": [
       "https://scholar.google.com/citations?user=TUAzs3sAAAAJ&hl=en&sortby=pubdate&pagesize=100",
       "https://arxiv.org/abs/2502.17814"
-    ]
+    ],
+    "venue_note": "Selected as Discussion Paper at"
   },
   {
     "title": "Contrastive Learning on Multimodal Analysis of Electronic Health Records",
     "authors": "* Tianxi Cai, Feiqing Huang, Ryumei Nakada, Linjun Zhang, Doudou Zhou",
     "year": 2026,
-    "url": "https://arxiv.org/abs/2403.14926",
+    "url": "https://www.tandfonline.com/doi/abs/10.1080/01621459.2026.2698136",
     "venue": "Journal of the American Statistical Association",
     "category": "Deep Learning (with focus on representation learning)",
     "kind": "publication",
-    "extra_links": [],
+    "extra_links": [
+      {
+        "url": "https://arxiv.org/abs/2403.14926",
+        "label": "arXiv"
+      }
+    ],
     "sources": [
       "https://scholar.google.com/citations?user=TUAzs3sAAAAJ&hl=en&sortby=pubdate&pagesize=100",
-      "https://arxiv.org/abs/2403.14926"
+      "https://arxiv.org/abs/2403.14926",
+      "https://www.tandfonline.com/doi/abs/10.1080/01621459.2026.2698136"
     ]
   },
   {

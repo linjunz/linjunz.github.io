@@ -54,7 +54,16 @@ def paper_item(p, compact=False):
         title = link(p['url'], title)
     authors = escape(p['authors']).replace('Linjun Zhang', '<strong>Linjun Zhang</strong>')
     extra = ''.join(link(l['url'],escape(l['label'])) for l in p.get('extra_links',[]))
-    return f'''<li class="paper"><div class="paper-meta">{p['year']} <span aria-hidden="true">/</span> {escape(p['venue'])}</div><h3>{title}</h3>{'' if compact else f'<p class="authors">{authors}</p>'}{f'<div class="paper-links">{extra}</div>' if extra else ''}</li>'''
+    venue = escape(p['venue'])
+    if p.get('venue_note'):
+        venue = f'{escape(p["venue_note"])} <strong>{venue}</strong>'
+    return f'''<li class="paper"><div class="paper-meta">{p['year']} <span aria-hidden="true">/</span> {venue}</div><h3>{title}</h3>{'' if compact else f'<p class="authors">{authors}</p>'}{f'<div class="paper-links">{extra}</div>' if extra else ''}</li>'''
+
+def research_summary():
+    return 'My research connects statistical foundations with trustworthy and efficient AI. My recent research interests include efficient AI evaluation, AI safety (including data privacy, copyright, and algorithmic bias), statistical principles of AI agents, and representation learning.'
+
+def research_support():
+    return f'''My research is partially supported by NSF CAREER {link('https://www.nsf.gov/awardsearch/showAward?AWD_ID=2340241','DMS-2340241')} (PI); NSF {link('https://www.nsf.gov/awardsearch/showAward?AWD_ID=2413107','DMS-2413107')}, “Collaborative Research: Multi-source Learning: Data-driven Algorithms, Optimality Theory, and Applications”; and the Renaissance Philanthropy {link('https://www.renaissancephilanthropy.org/crowdsourcing-and-reinventing-the-next-generation-of-dynamic-and-scalable-math-benchmarks','AI for Math Fund')} (co-PI).'''
 
 def intro(eyebrow,title,description):
     return f'<header class="page-intro"><p class="eyebrow">{eyebrow}</p><h1>{title}</h1><p>{description}</p></header>'
@@ -64,22 +73,22 @@ def side_layout(sections,content):
     return f'<div class="page-layout"><nav class="page-nav" aria-label="On this page"><strong>On this page</strong>{links}</nav><div>{content}</div></div>'
 
 def home():
-    recent = [next(p for p in PAPERS if p['title'].startswith(t)) for t in ['PEANuT:', 'An Overview of Large', 'Secret-Protected']]
+    recent = [next(p for p in PAPERS if p['title'].startswith(t)) for t in ['Evaluating LLMs When They Do Not Know the Answer', 'Contrastive Learning on Multimodal Analysis of Electronic Health Records', 'An Overview of Large Language Models for Statisticians']]
     body = f'''<section class="home-hero" aria-labelledby="name">
 <div class="hero-copy"><p class="eyebrow">Statistics · Rutgers University</p>
 <h1 id="name">Linjun Zhang</h1>
 <p class="position">Associate Professor of Statistics<span>{link('https://statistics.rutgers.edu/','Department of Statistics')}, Rutgers University</span></p>
-<p class="intro">My research connects statistical foundations with trustworthy machine learning. I work on algorithmic fairness, privacy-preserving data analysis, machine learning theory and AI safety, high-dimensional inference, and self-supervised learning.</p>
+<p class="intro">{research_summary()}</p>
 <p class="intro">I received my Ph.D. in Statistics from the University of Pennsylvania in 2019, advised by {link('http://www-stat.wharton.upenn.edu/~tcai/','T. Tony Cai')}.</p>
 <div class="contact-links">{link('mailto:'+EMAIL,'Email ↗')}{link(SCHOLAR,'Google Scholar ↗')}{link(CV,'Curriculum vitae ↗')}</div></div>
 <figure class="portrait"><img src="assets/portrait-natural.jpg" width="600" height="900" alt="Portrait of Linjun Zhang" fetchpriority="high"><figcaption><span>Department of Statistics</span><span>Rutgers University</span></figcaption></figure>
 </section>{opportunity()}
 <section class="split-section" aria-labelledby="interests"><div><span class="section-number">01 / RESEARCH</span><h2 id="interests">Research interests</h2></div><div class="topics">
-<div class="topic">Trustworthy AI &amp; LLMs<span>Statistical foundations · AI safety</span></div><div class="topic">Fairness &amp; privacy<span>Algorithmic fairness · Private data analysis</span></div><div class="topic">High-dimensional statistics<span>Inference · Distribution shifts</span></div><div class="topic">Representation learning<span>Self-supervision · Learning theory</span></div>
+<div class="topic">Efficient AI evaluation<span>Statistical efficiency · Evaluation reliability</span></div><div class="topic">AI safety<span>Data privacy · Copyright · Algorithmic bias</span></div><div class="topic">AI agents<span>Statistical principles</span></div><div class="topic">Representation learning<span>Self-supervision · Learning theory</span></div>
 </div></section>
-<section class="split-section" aria-labelledby="recent"><div><span class="section-number">02 / PAPERS</span><h2 id="recent">Recent work</h2>{link('Research.html','All research ↗',' class="link-arrow"')}</div><ul class="paper-list home-recent">{''.join(paper_item(p,True) for p in recent)}</ul></section>
-<section class="split-section" aria-labelledby="support"><div><span class="section-number">03 / SUPPORT</span><h2 id="support">Research support</h2></div><p class="funding">My research is partially supported by NSF CAREER {link('https://www.nsf.gov/awardsearch/showAward?AWD_ID=2340241','DMS-2340241')} (PI) and the Renaissance Philanthropy {link('https://www.renaissancephilanthropy.org/crowdsourcing-and-reinventing-the-next-generation-of-dynamic-and-scalable-math-benchmarks','AI for Math Fund')} (co-PI).</p></section>'''
-    shell('Home', body, 'Linjun Zhang, Associate Professor of Statistics at Rutgers University. Research in trustworthy AI, statistical learning, fairness, privacy, and high-dimensional inference.')
+<section class="split-section" aria-labelledby="recent"><div><span class="section-number">02 / PAPERS</span><h2 id="recent">Highlighted recent work</h2>{link('Research.html','All research ↗',' class="link-arrow"')}</div><ul class="paper-list home-recent">{''.join(paper_item(p,True) for p in recent)}</ul></section>
+<section class="split-section" aria-labelledby="support"><div><span class="section-number">03 / SUPPORT</span><h2 id="support">Research support</h2></div><p class="funding">{research_support()}</p></section>'''
+    shell('Home', body, 'Linjun Zhang, Associate Professor of Statistics at Rutgers University. Statistical foundations for trustworthy and efficient AI: evaluation, safety, agents, and representation learning.')
 
 def research():
     sections=[]; content=''
@@ -89,16 +98,16 @@ def research():
     for label,papers in groups:
         sid='year-'+label[:4]; sections.append((sid,label))
         content+=f'<section id="{sid}" class="content-section"><h2>{escape(label)}</h2><ul class="paper-list">'+''.join(paper_item(p) for p in papers)+'</ul></section>'
-    body=intro('Publications &amp; preprints','Research',f'Statistical foundations of trustworthy AI, fairness and privacy, representation learning, and high-dimensional inference. {link(SCHOLAR,"Google Scholar ↗")}')
+    body=intro('Publications &amp; preprints','Research',f'Statistical foundations for trustworthy and efficient AI: efficient evaluation, AI safety, AI agents, and representation learning. {link(SCHOLAR,"Google Scholar ↗")}')
     body+='<p class="small-note">* indicates alphabetical authorship; ** indicates equal contribution. Preprints are labeled separately from published work.</p>'
     body+=side_layout(sections,content)
-    shell('Research',body,'Publications and preprints by Linjun Zhang, including recent work on large language models, fairness, differential privacy, and statistical learning.')
+    shell('Research',body,'Publications and preprints by Linjun Zhang on efficient AI evaluation, AI safety, statistical principles of AI agents, and representation learning.')
 
 def about():
     content=f'''<section class="content-section prose" id="biography"><h2>Biography</h2>
 <p>I am an Associate Professor in the {link('https://statistics.rutgers.edu/','Department of Statistics')} at Rutgers University. I received my Ph.D. in Statistics from the University of Pennsylvania in 2019, where I was fortunate to be advised by Professor {link('http://www-stat.wharton.upenn.edu/~tcai/','T. Tony Cai')}.</p>
-<p>My current research interests include algorithmic fairness, privacy-preserving data analysis, machine learning theory (especially AI safety), high-dimensional statistical inference, and self-supervised learning.</p>
-<p>My research is partially supported by NSF CAREER {link('https://www.nsf.gov/awardsearch/showAward?AWD_ID=2340241','DMS-2340241')} (PI) and the Renaissance Philanthropy {link('https://www.renaissancephilanthropy.org/crowdsourcing-and-reinventing-the-next-generation-of-dynamic-and-scalable-math-benchmarks','AI for Math Fund')} (co-PI).</p>
+<p>{research_summary()}</p>
+<p>{research_support()}</p>
 <p>{link(CV,'View curriculum vitae ↗')}</p></section>
 <section class="content-section" id="education"><h2>Education</h2>
 <div class="timeline-entry"><time>2019</time><h3>Ph.D. in Statistics</h3><p>University of Pennsylvania</p><p>Advisor: T. Tony Cai</p></div>
