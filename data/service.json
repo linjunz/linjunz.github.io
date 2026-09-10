@@ -32,28 +32,18 @@
     "role": "Conference Organizer",
     "entries": [
       {
+        "name": "Analysis of Census Noisy Measurement Files and Differential Privacy Workshop, 2022",
+        "url": "http://dimacs.rutgers.edu/events/details?eID=2038",
+        "note": "Co-chair with Cynthia Dwork, Robin Gong, and Weijie Su"
+      },
+      {
         "name": "STAI-X 2026",
         "url": "https://statsupai.org/STAIX2026/",
-        "note": "co-chair with Edgar Dobriban, Xihong Lin, Wenyi Wang, and Tian Zheng"
+        "note": "Co-chair with Edgar Dobriban, Xihong Lin, Wenyi Wang, and Tian Zheng"
       },
       {
         "name": "ICSA China 2027",
-        "note": "co-chair with Jianfeng Feng and Jun S. Liu"
-      },
-      {
-        "label": "DIMACS Workshop",
-        "name": "Analysis of Census Noisy Measurement Files and Differential Privacy",
-        "url": "http://dimacs.rutgers.edu/events/details?eID=2038",
-        "details": [
-          "April 28–29, 2022 · New Brunswick, NJ",
-          "Co-organized with Cynthia Dwork, Robin Gong, and Weijie Su."
-        ],
-        "extra_links": [
-          {
-            "label": "Videos available on YouTube ↗",
-            "url": "https://www.youtube.com/playlist?list=PLKVCRT3MRed733-w2Lo2yvCAkac9zdIVj"
-          }
-        ]
+        "note": "Co-chair with Jianfeng Feng and Jun S. Liu"
       }
     ]
   },
