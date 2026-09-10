@@ -75,7 +75,7 @@ def side_layout(sections,content):
 def home():
     recent = [next(p for p in PAPERS if p['title'].startswith(t)) for t in ['Evaluating LLMs When They Do Not Know the Answer', 'Contrastive Learning on Multimodal Analysis of Electronic Health Records', 'An Overview of Large Language Models for Statisticians']]
     body = f'''<section class="home-hero" aria-labelledby="name">
-<div class="hero-copy"><p class="eyebrow">Statistics · Rutgers University</p>
+<div class="hero-copy">
 <h1 id="name">Linjun Zhang</h1>
 <p class="position">Associate Professor of Statistics<span>{link('https://statistics.rutgers.edu/','Department of Statistics')}, Rutgers University</span></p>
 <p class="intro">{research_summary()}</p>
